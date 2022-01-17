@@ -1,6 +1,6 @@
 # BTP-200 Seneca College
 
-These are simple C++ projects created as assignments in the Second Semester of College.
+These are simple C++ projects created as assignments in the Second Semester of College. These projects were written with C++14 standard guidelines.
 
 The main goal of the projects is to practice C++ syntax and produce working code without errors or memory leaks.
 
@@ -17,7 +17,7 @@ To compile any of the individual projects use the Command:
 ** For G++: **
 
 ```bash
-g++ -Wall -o output.o *.cpp
+g++ -Wall -std=c++14 -o output.o *.cpp
 valgind output.o        #optional
 output
 ```
