@@ -28,6 +28,6 @@ cl /W4 /std:c++14 *.cpp /out:output.exe
 ./output.exe
 ```
 
-[Valgrind](https://valgrind.org/) is a Linux-only tool for C++ memory leak checking and is very useful for development.<br/>
+[Valgrind](https://valgrind.org/){:target="_blank"} is a Linux-only tool for C++ memory leak checking and is very useful for development.<br/>
 It can be used on Windows with either installing WSL, Mingw, or Cygwin.<br/>
 Valgrind is not a dependancy and can be ignored from the Build & Run Command.<br/>
