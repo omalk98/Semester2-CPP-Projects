@@ -17,7 +17,7 @@ To compile any of the individual projects use the Command:
 
 ```bash
 g++ -Wall -std=c++14 -o output.o *.cpp
-valgind output.o        #optional
+valgrind output.o        #optional
 output
 ```
 
