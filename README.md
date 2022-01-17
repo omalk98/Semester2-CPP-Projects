@@ -13,8 +13,6 @@ Some of the projects contain data files which are being processed in that specif
 <br/>
 To compile any of the individual projects use the Command:
 
-<br/>
-
 **For G++:**
 
 ```bash
