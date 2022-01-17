@@ -25,7 +25,7 @@ output
 ** For Clang: **
 
 ```powershell
-cl /W4 *.cpp /out:output.exe
+cl /W4 /std:c++14 *.cpp /out:output.exe
 ./output.exe
 ```
 
