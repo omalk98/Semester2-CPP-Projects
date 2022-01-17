@@ -14,7 +14,8 @@ Some of the projects contain data files which are being processed in that specif
 To compile any of the individual projects use the Command:
 
 <br/>
-** For G++: **
+
+**For G++:**
 
 ```bash
 g++ -Wall -std=c++14 -o output.o *.cpp
@@ -22,7 +23,7 @@ valgind output.o        #optional
 output
 ```
 
-** For Clang: **
+**For Clang:**
 
 ```powershell
 cl /W4 /std:c++14 *.cpp /out:output.exe
